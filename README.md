@@ -1,6 +1,7 @@
 # IMC Prosperity 4 Backtester
 
 [![Build Status](https://github.com/nabayansaha/imc-prosperity-4-backtester/workflows/Build/badge.svg)](https://github.com/nabayansaha/imc-prosperity-4-backtester/actions/workflows/build.yml)
+[![PyPI Downloads](https://static.pepy.tech/personalized-badge/prosperity4btest?period=total&units=INTERNATIONAL_SYSTEM&left_color=BLACK&right_color=GREEN&left_text=downloads)](https://pepy.tech/projects/prosperity4btest)
 
 This repository contains a backtester for [IMC Prosperity 4](https://prosperity.imc.com/) algorithms, based on [jmerle's backtester for Prosperity 3](https://github.com/jmerle/imc-prosperity-3-backtester).
 
