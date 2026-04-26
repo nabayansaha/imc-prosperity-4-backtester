@@ -1,6 +1,6 @@
 import json
 from json import JSONEncoder
-from typing import Dict, List
+from typing import Dict, List, Optional
 
 import jsonpickle
 
@@ -79,7 +79,13 @@ class OrderDepth:
 
 class Trade:
     def __init__(
-        self, symbol: Symbol, price: int, quantity: int, buyer: UserId = None, seller: UserId = None, timestamp: int = 0
+        self,
+        symbol: Symbol,
+        price: int,
+        quantity: int,
+        buyer: Optional[UserId] = None,
+        seller: Optional[UserId] = None,
+        timestamp: int = 0,
     ) -> None:
         self.symbol = symbol
         self.price: int = price
